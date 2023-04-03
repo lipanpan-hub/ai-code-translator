@@ -145,6 +145,7 @@ export default function Home() {
 
         <div className="mt-6 text-center text-sm">
           <APIKeyInput apiKey={apiKey} onChange={handleApiKeyChange} />
+          <a href="https://syno.lipanpanx.com:65473/"> <button>获取Key</button> </a>
         </div>
 
         <div className="mt-2 flex items-center space-x-2">
@@ -160,7 +161,6 @@ export default function Home() {
         </div>
 
         <div className="mt-2 text-center text-xs">
-          <a href="https://syno.lipanpanx.com:65473/"> <button>获取Key</button> </a>
           {loading
             ? 'Translating...'
             : hasTranslated
