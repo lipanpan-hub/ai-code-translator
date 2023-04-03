@@ -150,7 +150,7 @@ export default function Home() {
             href="https://syno.lipanpanx.com:65473/"
           > 
             <button
-              className="mt-1 h-[24px] w-[35px] rounded-md border border-gray-300 text-purple shadow-sm sm:text-sm"
+              className="mt-1 h-[24px] w-[65px] rounded-md border border-gray-300 text-purple shadow-sm sm:text-sm"
             >
               获取KEY
             </button> 
