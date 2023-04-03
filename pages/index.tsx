@@ -21,7 +21,7 @@ export default function Home() {
     const maxCodeLength = model === 'gpt-3.5-turbo' ? 6000 : 12000;
 
     if (!apiKey) {
-      alert('Please enter an API key.');
+      alert('首先输入你的API key才能使用.');
       return;
     }
 
@@ -140,7 +140,7 @@ export default function Home() {
       </Head>
       <div className="flex h-full min-h-screen flex-col items-center bg-[#0E1117] px-4 pb-20 text-neutral-200 sm:px-10">
         <div className="mt-10 flex flex-col items-center justify-center sm:mt-20">
-          <div className="text-4xl font-bold">AI Code Translator</div>
+          <div className="text-4xl font-bold">AI 代码翻译器</div>
         </div>
 
         <div className="mt-6 text-center text-sm">
@@ -164,7 +164,7 @@ export default function Home() {
             ? 'Translating...'
             : hasTranslated
             ? 'Output copied to clipboard!'
-            : 'Enter some code and click "Translate"'}
+            : '获取Key-->https://lipanpanx.com'}
         </div>
 
         <div className="mt-6 flex w-full max-w-[1200px] flex-col justify-between sm:flex-row sm:space-x-4">
