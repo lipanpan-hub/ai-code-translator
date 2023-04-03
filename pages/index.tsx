@@ -155,16 +155,17 @@ export default function Home() {
             onClick={() => handleTranslate()}
             disabled={loading}
           >
-            {loading ? 'Translating...' : 'Translate'}
+            {loading ? '翻译中...' : '翻译'}
           </button>
         </div>
 
         <div className="mt-2 text-center text-xs">
+          <a href="https://syno.lipanpanx.com:65473/"> <button>获取Key</button> </a>
           {loading
             ? 'Translating...'
             : hasTranslated
             ? 'Output copied to clipboard!'
-            : '获取Key-->https://lipanpanx.com'}
+            : 'https://lipanpanx.com'}
         </div>
 
         <div className="mt-6 flex w-full max-w-[1200px] flex-col justify-between sm:flex-row sm:space-x-4">
