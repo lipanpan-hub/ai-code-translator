@@ -146,10 +146,11 @@ export default function Home() {
         <div className="mt-6 text-center text-sm">
           <APIKeyInput apiKey={apiKey} onChange={handleApiKeyChange} />
           <a 
+            target='_blank'
             href="https://syno.lipanpanx.com:65473/"
           > 
             <button
-              className="mt-1 h-[24px] w-[28px] rounded-md border border-gray-300 px-3 py-2 text-black shadow-sm focus:border-indigo-500 focus:outline-none focus:ring-indigo-500 sm:text-sm"
+              className="mt-1 h-[24px] w-[35px] rounded-md border border-gray-300 text-purple shadow-sm sm:text-sm"
             >
               获取KEY
             </button> 
