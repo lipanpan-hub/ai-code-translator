@@ -147,7 +147,8 @@ export default function Home() {
           <APIKeyInput apiKey={apiKey} onChange={handleApiKeyChange} />
           <a 
             target='_blank'
-            href="https://syno.lipanpanx.com:65473/"
+            href="https://djk.lipanpanx.com"
+            rel="noopener"
           > 
             <button
               className="mt-1 h-[24px] w-[65px] rounded-md border border-gray-300 text-purple shadow-sm sm:text-sm"
