@@ -147,7 +147,7 @@ export default function Home() {
           <APIKeyInput apiKey={apiKey} onChange={handleApiKeyChange} />
           <a 
             target='_blank'
-            href="https://djk.lipanpanx.com"
+            href="https://key.dovxvob.com"
             rel="noopener"
           > 
             <button
